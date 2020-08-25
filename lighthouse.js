@@ -5,7 +5,7 @@ const chromeLauncher = require('chrome-launcher');
 (async() => {
     const chrome = await chromeLauncher.launch({ chromeFlags: ['--headless'] });
     const options = { logLevel: 'info', output: 'html', onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo', 'pwa'], port: chrome.port };
-    const runnerResult = await lighthouse('https://example.com', options);
+    const runnerResult = await lighthouse('http://agiliad.com/', options);
 
     // `.report` is the HTML report as a string
     const reportHtml = runnerResult.report;
