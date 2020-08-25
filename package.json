@@ -1,0 +1,22 @@
+{
+  "name": "multipage-lighthouse-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SushantUIDeveloper/multipage-lighthouse-integration.git"
+  },
+  "author": "Sushant Paikrao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SushantUIDeveloper/multipage-lighthouse-integration/issues"
+  },
+  "homepage": "https://github.com/SushantUIDeveloper/multipage-lighthouse-integration#readme",
+  "dependencies": {
+    "lighthouse": "^6.2.0"
+  }
+}
